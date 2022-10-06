@@ -13,5 +13,9 @@ if(isset($_POST['tambah'])){
     
     }else{
         header('Location: barang.php?status=gagal');
-    }}
+    }
+}
+else{
+    ("akses dilarang");
+}
     ?>
